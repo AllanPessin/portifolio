@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" class="css">
+  <title>Allan | Portifólio</title>
+</head>
+
+<body>
+  <header>
+    <img class="profile-image"
+      src="https://media-exp3.licdn.com/dms/image/C4D03AQFBQVG0OiSzrQ/profile-displayphoto-shrink_800_800/0/1600770639108?e=1630540800&v=beta&t=75OHE4ol4FPtHMhHxWf6Pnihq8CTc3YUThH7NW2sMy0"
+      alt="profile-image" />
+    <div class="profile-info">
+      <h1>
+        <span class="name-profile">Allan da Silva Pessin</span>, 23
+      </h1>
+      <p class="description t60">Desenvolvedor em formação</p>
+    </div>
+  </header>
+  <main>
+    <div class="column-left">
+      <div class="experience">
+        <h2>Experiências profissionais</h2>
+        <div class="line"></div>
+        <ul>
+          <li>
+            <img src="https://image.flaticon.com/icons/png/512/1083/1083559.png" alt="experience-image">
+            <div class="content">
+              <h3 class="post-office"><b>Suporte ao usuário</b> @Dual</h3>
+              <p class="time-course t60">Março de 2020 a março 2021</p>
+            </div>
+          </li>
+          <li>
+            <img src="https://whitelabel.umov.me/akto/CENTER_LOGO?1605187912949" alt="experience-image">
+            <div class="content">
+              <h3 class="post-office"><b>Suporte ao usuário</b> @ATKO</h3>
+              <p class="time-course t60">Outubro de 2020 a Julho 2021</p>
+            </div>
+          </li>
+        </ul>
+        <div class="formation">
+          <h2>Formação</h2>
+          <div class="line"></div>
+          <ul>
+            <li>
+              <img
+                src="data:image/jpeg;base64,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"
+                alt="formation-image">
+              <div class="content">
+                <h3 class="post-office"><b>Técnico em Contabilidade</b> UNITERP</h3>
+                <p class="time-course t60">Formação 2015</p>
+              </div>
+            </li>
+            <li>
+              <img
+                src="data:image/png;base64,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"
+                alt="formation-image">
+              <div class="content">
+                <h3 class="post-office"><b>Análise e Desenvolvimento de Sistemas</b> FATEC</h3>
+                <p class="time-course t60">Formação 2021</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="column-right">
+      <h2>Habilidades</h2>
+      <div class="skills">
+        <div class="skill">
+          <h3>Front</h3>
+          <ul>
+            <li>
+              <p class="none">HTML</p>
+              <div class="progress"></div>
+              <div class="progress-experience">
+                <div class="current-experience"></div>
+                <div class="current-experience"></div>
+                <div class="current-experience incomplete"></div>
+                <div class="current-experience incomplete"></div>
+                <div class="current-experience incomplete"></div>
+              </div>
+            </li>
+            <li>
+              <p class="none">CSS</p>
+              <div class="progress"></div>
+              <div class="progress-experience">
+                <div class="current-experience"></div>
+                <div class="current-experience"></div>
+                <div class="current-experience incomplete"></div>
+                <div class="current-experience incomplete"></div>
+                <div class="current-experience incomplete"></div>
+              </div>
+            </li>
+            <li>
+              <p class="none">JavaScript</p>
+              <div class="progress"></div>
+              <div class="progress-experience">
+                <div class="current-experience"></div>
+                <div class="current-experience"></div>
+                <div class="current-experience"></div>
+                <div class="current-experience incomplete"></div>
+                <div class="current-experience incomplete"></div>
+              </div>
+            </li>
+            <li>
+              <p class="none">React</p>
+              <div class="progress"></div>
+              <div class="progress-experience">
+                <div class="current-experience"></div>
+                <div class="current-experience"></div>
+                <div class="current-experience"></div>
+                <div class="current-experience incomplete"></div>
+                <div class="current-experience incomplete"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="skill">
+          <h3>Back</h3>
+          <ul>
+            <li>
+              <p class="none">Node</p>
+              <div class="progress"></div>
+              <div class="progress-experience">
+                <div class="current-experience"></div>
+                <div class="current-experience"></div>
+                <div class="current-experience"></div>
+                <div class="current-experience"></div>
+                <div class="current-experience incomplete"></div>
+              </div>
+            </li>
+            <li>
+              <p class="none">PostgreSQL</p>
+              <div class="progress"></div>
+              <div class="progress-experience">
+                <div class="current-experience"></div>
+                <div class="current-experience"></div>
+                <div class="current-experience"></div>
+                <div class="current-experience"></div>
+                <div class="current-experience incomplete"></div>
+              </div>
+            </li>
+            <li>
+              <p class="none">REST</p>
+              <div class="progress"></div>
+              <div class="progress-experience">
+                <div class="current-experience"></div>
+                <div class="current-experience"></div>
+                <div class="current-experience"></div>
+                <div class="current-experience"></div>
+                <div class="current-experience incomplete"></div>
+              </div>
+            </li>
+            <li>
+              <p class="none">Java</p>
+              <div class="progress"></div>
+              <div class="progress-experience">
+                <div class="current-experience"></div>
+                <div class="current-experience"></div>
+                <div class="current-experience"></div>
+                <div class="current-experience incomplete"></div>
+                <div class="current-experience incomplete"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="skill">
+          <h3>Soft skills</h3>
+          <ul>
+            <li>
+              <p class="none">Comunicação</p>
+              <div class="progress"></div>
+              <div class="progress-experience">
+                <div class="current-experience"></div>
+                <div class="current-experience"></div>
+                <div class="current-experience"></div>
+                <div class="current-experience"></div>
+                <div class="current-experience incomplete"></div>
+              </div>
+            </li>
+            <li>
+              <p class="none">Trabalho em equipe</p>
+              <div class="progress"></div>
+              <div class="progress-experience">
+                <div class="current-experience"></div>
+                <div class="current-experience"></div>
+                <div class="current-experience"></div>
+                <div class="current-experience"></div>
+                <div class="current-experience incomplete"></div>
+              </div>
+            </li>
+            <li>
+              <p class="none">Gerencia de tempo</p>
+              <div class="progress"></div>
+              <div class="progress-experience">
+                <div class="current-experience"></div>
+                <div class="current-experience"></div>
+                <div class="current-experience"></div>
+                <div class="current-experience"></div>
+                <div class="current-experience incomplete"></div>
+              </div>
+            </li>
+            <li>
+              <p class="none">Gestão de conflitos</p>
+              <div class="progress"></div>
+              <div class="progress-experience">
+                <div class="current-experience"></div>
+                <div class="current-experience"></div>
+                <div class="current-experience"></div>
+                <div class="current-experience incomplete"></div>
+                <div class="current-experience incomplete"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <h2 class="section-projects">Projetos</h2>
+      <div class="projects">
+        <div class="project">
+          <h3>DsDelivery</h3>
+          <p>Projeto da Semana DevSuperior, aplicando conhecimentos na linguagem Java com SpringBoot para desenvolver a API, React para frontend e React Native para mobile </p>
+          <img
+            src="https://media-exp3.licdn.com/dms/image/C4D22AQE42qF5O8VyAg/feedshare-shrink_1280/0/1610159634783?e=1628121600&v=beta&t=0N3S0ER1eph3umO57mcqvfDYtM9jQKO9ASY2nYPeWas"
+            alt="projeto-Ds-delivery">
+          <a href="https://dsdelivery-xi.vercel.app/" target="#" rel="noopener noreferrer">Ver Projeto</a>
+        </div>
+        <div class="project">
+          <h3>DsVendas</h3>
+          <p>Projeto da Semana Dev Superior, aplicado e reforçando conhecimentos na linguagem Java para construção da API e React para desenvolvimento do frontend</p>
+          <img
+            src="https://media-exp3.licdn.com/dms/image/C4D22AQGNsz0q2fVcug/feedshare-shrink_1280/0/1620498342526?e=1628121600&v=beta&t=rxtf8Jy_runBImq_pdRm-gLacUqK4c52VKB0ORVC_QU"
+            alt="projeto-Ds-delivery">
+          <a href="https://ds-vendas-allan.netlify.app/dashboard" target="#" rel="noopener noreferrer">Ver Projeto</a>
+        </div>
+        <div class="project">
+          <h3>My Invest</h3>
+          <p>Projeto desenvolvido durante a FullStack Dev week 2.0, uma plataforma para cadastrar novos ativos na carteira de investimento, utilizando React e Ant Design. <br/></p>
+          <img
+            src="https://media-exp3.licdn.com/dms/image/C4D22AQEt_7-bnZ4o5A/feedshare-shrink_2048_1536/0/1622771501121?e=1628121600&v=beta&t=95oixcBryDXQ7vimWAFj44m6eX3swqJ6JvkyK_36QrY"
+            alt="projeto-My-Invest">
+          <a href="https://my-invest.vercel.app/" target="#" rel="noopener noreferrer">Ver Projeto</a>
+        </div>
+      </div>
+  </main>
+  <footer>Portifólio ©2021 Created by Allan Pessin</footer>
+</body>
+
+</html>
